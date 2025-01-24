@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skræddersyet Træningsprogram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003680;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x600');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .program-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .program-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            flex: 1;
+            min-width: 280px;
+            text-align: center;
+        }
+        .program-card h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #004aad;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Skræddersyet Træningsprogram</h1>
+        <p>6-ugers programmer tilpasset dine mål i forskellige sportsgrene og færdigheder</p>
+    </header>
+    
+    <nav>
+        <a href="#om">Om Os</a>
+        <a href="#programmer">Programmer</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Bliv den bedste version af dig selv!</h1>
+        <p>Få et skræddersyet træningsprogram designet specifikt til dig.</p>
+        <a href="#programmer" style="color: white; background-color: #004aad; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Se Programmer</a>
+    </section>
+
+    <section class="container" id="programmer">
+        <h2>Vores Programmer</h2>
+        <div class="program-section">
+            <div class="program-card">
+                <h3>Fodbold</h3>
+                <p>Få en 6-ugers plan til at forbedre din kondition, teknik og spilforståelse.</p>
+            </div>
+            <div class="program-card">
+                <h3>Basketball</h3>
+                <p>Træn intensivt for at forbedre din skudpræcision, hurtighed og styrke.</p>
+            </div>
+            <div class="program-card">
+                <h3>Løb</h3>
+                <p>Opbyg udholdenhed og forbedr dine tider med vores specialdesignede planer.</p>
+            </div>
+            <div class="program-card">
+                <h3>Styrketræning</h3>
+                <p>Skab muskelmasse og styrke med vores effektive styrketræningsprogrammer.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Skræddersyet Træningsprogram. Alle rettigheder forbeholdes.</p>
+    </footer>
+</body>
+</html>
